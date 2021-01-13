@@ -1,0 +1,31 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Ola", "Oi", "Salve", "Tudo bem?", "Bom dia"],
+   "response": ["Oi"]
+  },
+  {"tag": "bye",
+   "patterns": ["Tchau", "Flw", "Ate mais", "Adeus", "Ate"],
+   "response": ["Flw", "Tchau", "Ate amanha", "Ate mais tarde"]
+  },
+  {"tag": "color",
+   "patterns": ["Qual a sua cor favorita", "Cor Favorita", "Escolhe uma cor"],
+   "response": ["Preto", "Azul", "Preto e azul", "Roxo cai bem"]
+  },
+  {"tag": "question",
+   "patterns": ["Thaissa, voce sabe", "voce conhece", "ja viu aquilo"],
+   "response": ["Acho que non", "Non sei", "Talvez", "To com fome"]
+  },
+  {"tag": "laugh",
+   "patterns": ["kkkkkkk", "kkkkkk", "hahahah", "kkkkkkkkkk"],
+   "response": ["hashaashhs", "ahshshah"]
+  },
+  {"tag": "outro",
+   "patterns": ["fkldsahfjkdshjkgajdsgvuydtuytvyucggvh", "lfajkldjfkajlkfj"],
+   "response": ["Oporra", "Porra", "Opa", "Vacilo", "Acontece :v", "Nuss", "Mano",
+                "PUTA MERDA", "Genial", "Justo justo", "Puts", "Caraca", "Massa",
+                "Custa nada tentar", "Mai que carai", "E a vida",
+                "Non e o ideal, mas acontece"]
+  }
+
+]
+}
