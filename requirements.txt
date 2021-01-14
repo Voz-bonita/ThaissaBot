@@ -4,5 +4,4 @@ numpy==1.19.3
 nltk
 tensorflow
 keras
-random
 youtube_dl
