@@ -25,7 +25,7 @@ Thay = load_model('Thaissa_ML')
 @client.event
 async def on_ready():
     await client.change_presence(activity=discord.Game('RPG'))
-    print('O cara')
+    print('A mocinha')
 
 
 @client.event
