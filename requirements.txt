@@ -1,8 +1,6 @@
 PyNaCl
 discord
 numpy==1.19.3
-json
-time
 nltk
 tensorflow
 keras
