@@ -1,7 +1,7 @@
 import discord
 import random
 from keras.models import Sequential, load_model
-import tensorflow as tf
+from tensorflow import reshape
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 import numpy as np
@@ -48,7 +48,7 @@ async def on_message(message):
 
             inp = message.content.lower()
             bagged = bag_of_words(inp, words)
-            bagged = tf.reshape(bagged, [1, len(X[0])])
+            bagged = reshape(bagged, [1, len(X[0])])
             results = Thay.predict(bagged)[0]
             result_index = np.argmax(results)
 

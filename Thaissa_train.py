@@ -1,10 +1,8 @@
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
-from nltk import word_tokenize
 import json
 import pickle
 import numpy as np
-import random
 
 stemmer = LancasterStemmer()
 with open('thaissa_resp.json') as file:
