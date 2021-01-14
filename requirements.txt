@@ -1,0 +1,11 @@
+PyNaCl
+discord
+pickle
+numpy==1.19.3
+json
+time
+nltk
+tensorflow
+keras
+random
+youtube_dl
